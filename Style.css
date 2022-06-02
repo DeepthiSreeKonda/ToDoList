@@ -1,0 +1,88 @@
+﻿body {
+    background: navajowhite;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Style code define for all components in th UI */
+
+h1 {
+    color: red;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 800;
+    color: navy;
+}
+
+#first {
+    margin-top: 10px;
+}
+
+#third {
+    margin-bottom: 30px;
+}
+
+#additem {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    transition: all 0.75s ease;
+    font-weight: normal;
+}
+
+    #additem:hover {
+        background-color: brown;
+        color: #FFCD5D;
+    }
+
+ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #025f70;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #4EB9CD;
+    transition: all 0.75s ease;
+}
+
+    li:hover {
+        background: #76CFE0;
+    }
+
+    li > button {
+        background: none;
+        border: none;
+        float: right;
+        color: #025f70;
+        font-weight: 800;
+    }
+
+input {
+    border-radius: 5px;
+    min-width: 65%;
+    padding: 5px;
+    border: none;
+}
+
+
+.done {
+    background: #51DF70 !important;
+    color: #00891E;
+}
+
+.delete {
+    display: none;
+}
